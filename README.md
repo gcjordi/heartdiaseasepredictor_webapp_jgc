@@ -1,13 +1,11 @@
-# Heart-disease-predictor-web-application
-Streamlit based heart disease predictor web application, user can interact with various classification models and  adjust the parameters without any coding knowledge
+# heartdisease_predictor_webapp_jgc
 
-Hello User
+Aplicación Web para la predicción de enfermedades cardíacas. Está basada en Streamlit, admite el ajuste de parámetros y permite la interactuación del usuario con el sistema mediante distintos modelos de clasificación.
 
-This is a streamlit based web application, with this you can deploy models into web without any HTML knowledge, heart disease file is 
-imported into the application, a user without any programming knowledge can interact with application and visualise the changes realtime.
+# Instrucciones de despliegue
 
-Instructions
-1. Change the data to your own binary classification dataset (optional)
+1. Si se desea puede cambiarse el conjunto de datos (clasificación binaria)
 2. pip install streamlit
-3. run the application.py file from terminal using the command streamlit run application.py
-4. webpage will be loaded with your local server, adjust parameters and enjoy.
+3. Ejecutar heart_disease_predictor.py desde terminal con streamlit run heart_disease_predictor.py
+4. La página Web puede ser cargda en un servidor local
+5. Realizar el ajuste de parámetros
